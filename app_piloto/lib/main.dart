@@ -26,10 +26,12 @@ class _MenuState extends State<Menu> {
     return Scaffold(
       appBar: AppBar(backgroundColor: Colors.orangeAccent),
       body: Container(
+        alignment: Alignment.center,
         height: 150,
         width: 150,
         color: Colors.blueAccent,
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
               "Thiego", 
