@@ -1,3 +1,5 @@
+import 'package:app_piloto/screen_column.dart';
+import 'package:app_piloto/screen_row.dart';
 import 'package:flutter/material.dart';
 
 main() {
@@ -9,7 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Menu());
+    return MaterialApp(
+      home: ScreenRow()
+    );
   }
 }
 
@@ -42,13 +46,13 @@ class _MenuState extends State<Menu> {
               ),
             ), 
             Text(
-              "23",
+              "37",
               style: TextStyle(
                 fontSize: 40,
                 color: Colors.orangeAccent,
                 fontWeight: FontWeight.bold,
               ),
-            ),
+            ), Text("")
           ],
         ),
       ),
